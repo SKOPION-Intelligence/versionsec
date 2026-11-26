@@ -27,7 +27,7 @@ certification and not an audit.
 | Measured | 2026-09-12T18:29:10Z |
 | Commit | `8373303c0cdecd11616b830817cdde17e28653a5` |
 | Tool | Scorecard v5.3.0 (`c22063e786c11f9dd714d777a687ff7c4599b600`) |
-| Source | [api.scorecard.dev](https://api.scorecard.dev/projects/github.com/gexiro-global/versionsec) · [viewer](https://scorecard.dev/viewer/?uri=github.com/gexiro-global/versionsec) |
+| Source | [api.scorecard.dev](https://api.scorecard.dev/projects/github.com/SKOPION-Intelligence/versionsec) · [viewer](https://scorecard.dev/viewer/?uri=github.com/SKOPION-Intelligence/versionsec) |
 
 The same run in CI reported the same score for the same commit, so the CI measurement
 and the published result agree.
@@ -94,7 +94,7 @@ What exists, and what it proves:
 
 - Each published wheel and sdist carries a Sigstore attestation produced by this
   repository's own CI. Verify with
-  `gh attestation verify <file> --repo gexiro-global/versionsec`.
+  `gh attestation verify <file> --repo SKOPION-Intelligence/versionsec`.
 - PyPI records PEP 740 provenance naming the Trusted Publisher that uploaded each
   file: `release.yml` for `versionsec`, `release-bridge.yml` for the `forgeguard`
   compatibility bridge.

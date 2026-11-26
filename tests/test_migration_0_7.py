@@ -257,7 +257,7 @@ def test_markdown_report_uses_new_brand(tmp_path):
 def test_user_agent_is_rebranded():
     from versionsec.client import _UA
 
-    assert _UA.startswith("VersionSec-by-Gexiro/0.7.2")
+    assert _UA.startswith("VersionSec-by-SKOPION/0.7.2")
 
 
 def test_no_unintended_active_forgeguard_branding_in_package():

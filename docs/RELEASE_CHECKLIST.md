@@ -51,8 +51,8 @@ routes do not accept a token, so it cannot be scripted. Regenerate
 `assets/versionsec_social_1280x640.png` with the new version and re-upload it by
 hand, or the card silently advertises the previous release.
 
-The same generated mark is served from versionsec.com and from the Gexiro product
-page. Those two rebuild from source, so they only need a deploy.
+The same generated mark is served from versionsec.com. It rebuilds from source,
+so it only needs a deploy.
 
 ## Things that have actually gone wrong
 

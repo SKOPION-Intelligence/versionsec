@@ -6,9 +6,9 @@ VersionSec v0.x is experimental. Security fixes are handled on the latest v0.x r
 
 ## Reporting A Vulnerability
 
-Use [GitHub private vulnerability reporting](https://github.com/gexiro-global/versionsec/security/advisories/new) so maintainers can discuss and remediate the issue without publishing it first.
+Use [GitHub private vulnerability reporting](https://github.com/SKOPION-Intelligence/versionsec/security/advisories/new) so maintainers can discuss and remediate the issue without publishing it first.
 
-If that workflow is unavailable to you, email `admin@gexiro.com`.
+If that workflow is unavailable to you, email `security@versionsec.com`.
 
 Please include:
 

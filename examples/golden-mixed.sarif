@@ -50,7 +50,7 @@
       ],
       "tool": {
         "driver": {
-          "informationUri": "https://github.com/gexiro-global/versionsec",
+          "informationUri": "https://github.com/SKOPION-Intelligence/versionsec",
           "name": "VersionSec",
           "rules": [
             {

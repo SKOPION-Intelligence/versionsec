@@ -32,6 +32,6 @@ Releases up to and including ForgeGuard 0.6.0 remain published under the `forgeg
 and are unchanged. Stable `FG-*` finding identifiers and the machine-readable report schema
 identifiers are unchanged, so existing report pipelines keep working.
 
-See the [migration guide](https://github.com/gexiro-global/versionsec/blob/main/MIGRATION.md).
+See the [migration guide](https://github.com/SKOPION-Intelligence/versionsec/blob/main/MIGRATION.md).
 
-Apache-2.0. Gexiro Global Enterprises Ltd.
+Apache-2.0. SKOPION Intelligence

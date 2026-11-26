@@ -1,7 +1,7 @@
 {
   "tool": {
     "name": "VersionSec",
-    "brand": "by Gexiro",
+    "brand": "by SKOPION Intelligence",
     "version": "0.2.2",
     "schema": "forgeguard.scan-result.v0.3",
     "positioning": "Read-only security posture and supply-chain visibility for self-hosted Gitea."

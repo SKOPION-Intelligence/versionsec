@@ -1,7 +1,7 @@
 # Migration: ForgeGuard -> VersionSec
 
 **VersionSec was formerly ForgeGuard.** The product, the maintainer
-(Gexiro Global Enterprises Ltd), the licence (Apache-2.0) and the scope are unchanged.
+(SKOPION Intelligence), the licence (Apache-2.0) and the scope are unchanged.
 Only the name changed, starting with release 0.7.0.
 
 ## What changed
@@ -12,8 +12,8 @@ Only the name changed, starting with release 0.7.0.
 | PyPI distribution | `forgeguard` | `versionsec` |
 | Import | `import forgeguard` | `import versionsec` |
 | CLI | `forgeguard` | `versionsec` |
-| GitHub | `gexiro-global/forgeguard` | `gexiro-global/versionsec` |
-| Site | product page on gexiro.com | <https://versionsec.com> |
+| GitHub | `gexiro-global/forgeguard` | `SKOPION-Intelligence/versionsec` |
+| Site | canonical project website | <https://versionsec.com> |
 | Token env var | `FORGEGUARD_TOKEN` | `VERSIONSEC_TOKEN` |
 
 ## What deliberately did **not** change

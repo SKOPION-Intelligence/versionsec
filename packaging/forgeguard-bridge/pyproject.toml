@@ -7,7 +7,7 @@
 # with the compatibility shim inside `versionsec`.
 
 [build-system]
-requires = ["setuptools==84.0.0", "wheel==0.48.0"]
+requires = ["setuptools==84.2.1", "wheel==0.48.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -19,7 +19,7 @@ requires-python = ">=3.11"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 authors = [
-  {name = "Gexiro Global Enterprises Ltd"}
+  {name = "SKOPION Intelligence"}
 ]
 keywords = ["gitea", "forgejo", "security", "posture", "self-hosted", "versionsec"]
 classifiers = [
@@ -35,8 +35,8 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://versionsec.com"
-Repository = "https://github.com/gexiro-global/versionsec"
-Migration = "https://github.com/gexiro-global/versionsec/blob/main/MIGRATION.md"
+Repository = "https://github.com/SKOPION-Intelligence/versionsec"
+Migration = "https://github.com/SKOPION-Intelligence/versionsec/blob/main/MIGRATION.md"
 
 [tool.setuptools]
 # Metadata-only bridge: no packages, no modules.

@@ -1,4 +1,4 @@
-# VersionSec by Gexiro - https://git.example.com
+# VersionSec by SKOPION Intelligence - https://git.example.com
 
 Read-only security posture and supply-chain visibility for self-hosted Gitea.
 
@@ -59,4 +59,4 @@ Read-only security posture and supply-chain visibility for self-hosted Gitea.
 - **Evidence:** {'checked': {'/api/v1/repos/search?limit=1': 403, '/api/v1/users/search?limit=1': 403}}
 
 ---
-VersionSec by Gexiro | own/authorized Gitea instances only | read-only
+VersionSec by SKOPION Intelligence | own/authorized instances only | read-only

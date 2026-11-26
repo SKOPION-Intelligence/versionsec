@@ -63,7 +63,7 @@ class Score(BaseModel):
 def _default_tool_metadata() -> dict[str, str]:
     return {
         "name": "VersionSec",
-        "brand": "by Gexiro",
+        "brand": "by SKOPION Intelligence",
         "version": __version__,
         "schema": "forgeguard.scan-result.v0.3",
         "positioning": "Read-only security posture and supply-chain visibility for self-hosted Gitea.",

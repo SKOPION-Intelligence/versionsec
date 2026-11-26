@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools==84.0.0", "wheel==0.48.0"]
+requires = ["setuptools==84.2.1", "wheel==0.48.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -11,7 +11,7 @@ requires-python = ">=3.11"
 license = "Apache-2.0"
 license-files = ["LICENSE"]
 authors = [
-  {name = "Gexiro Global Enterprises Ltd"}
+  {name = "SKOPION Intelligence"}
 ]
 keywords = ["gitea", "forgejo", "security", "posture", "self-hosted", "sarif", "runner"]
 classifiers = [
@@ -30,10 +30,10 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://versionsec.com"
-Repository = "https://github.com/gexiro-global/versionsec"
-Documentation = "https://github.com/gexiro-global/versionsec/tree/main/docs"
-Issues = "https://github.com/gexiro-global/versionsec/issues"
-Changelog = "https://github.com/gexiro-global/versionsec/blob/main/CHANGELOG.md"
+Repository = "https://github.com/SKOPION-Intelligence/versionsec"
+Documentation = "https://github.com/SKOPION-Intelligence/versionsec/tree/main/docs"
+Issues = "https://github.com/SKOPION-Intelligence/versionsec/issues"
+Changelog = "https://github.com/SKOPION-Intelligence/versionsec/blob/main/CHANGELOG.md"
 
 [project.scripts]
 versionsec = "versionsec.cli:main"
@@ -43,13 +43,13 @@ forgeguard = "versionsec.cli:main"
 [project.optional-dependencies]
 dev = [
   "build==1.6.1",
-  "pytest==9.1.1",
-  "ruff==0.16.6",
-  "twine==6.2.0",
+  "pytest==9.2.0",
+  "ruff==0.17.6",
+  "twine==7.0.0",
   "pytest-cov==7.1.0",
   "jsonschema==4.26.0",
-  "PyYAML==6.0.3",
-  "hypothesis==6.145.1",
+  "PyYAML==6.0.4",
+  "hypothesis==6.170.17",
 ]
 
 [tool.setuptools.packages.find]

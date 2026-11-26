@@ -18,7 +18,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 README = ROOT / "README.md"
-CANONICAL_BLOB = "https://github.com/gexiro-global/versionsec/blob/main/"
+CANONICAL_BLOB = "https://github.com/SKOPION-Intelligence/versionsec/blob/main/"
 
 # [label](target), ignoring image embeds, which are badges and already absolute.
 _LINK = re.compile(r"(?<!\!)\[[^\]]*\]\(([^)]+)\)")
@@ -48,7 +48,7 @@ def test_repository_documents_use_the_canonical_blob_url() -> None:
     repo_docs = [
         t
         for t in _readme_targets()
-        if t.startswith("https://github.com/gexiro-global/versionsec/")
+        if t.startswith("https://github.com/SKOPION-Intelligence/versionsec/")
         and t.endswith((".md", "/LICENSE"))
     ]
     assert repo_docs, "expected the README to link at least one repository document"

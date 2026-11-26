@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on Keep a Changelog, and this project adheres to semantic versioning.
 
+## [Unreleased]
+
+### Changed
+
+- Repository ownership and stewardship transferred from `gexiro-global` to `SKOPION-Intelligence` (`SKOPION Intelligence`, Mönchengladbach, Germany).
+- Updated brand, contact (`contact@versionsec.com`, `security@versionsec.com`), and canonical repository URLs across metadata, code, and documentation while preserving all `forgeguard` compatibility aliases, schema identifiers, and `FG-*` finding IDs.
+- Removed accidentally tracked `.coverage` artifact.
+
+### Security
+
+- Upgraded `urllib3` to `2.8.0`, `setuptools` build requirement to `84.2.1`, and pinned workflow actions (`actions/download-artifact`, `actions/upload-artifact`, `ossf/scorecard-action`, `pypa/gh-action-pypi-publish`, `github/codeql-action/upload-sarif`) plus `pydantic`, `typer`, `ruff`, `twine`, and `hypothesis`.
+
 ## [0.7.2] - 2026-09-12
 
 A metadata and documentation patch. No scanning, configuration-review,

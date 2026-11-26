@@ -125,7 +125,7 @@ def result_for(
     return Assessment(
         tool={
             "name": "VersionSec",
-            "brand": "by Gexiro",
+            "brand": "by SKOPION Intelligence",
             "version": __version__,
             "schema": "forgeguard.assessment.v1",
             "positioning": "Bounded forge posture assessment.",

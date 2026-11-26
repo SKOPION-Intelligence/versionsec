@@ -23,7 +23,7 @@ from .version import __version__
 
 app = typer.Typer(
     add_completion=False,
-    help="VersionSec by Gexiro. Bounded posture for one authorized forge.",
+    help="VersionSec by SKOPION Intelligence. Bounded posture for one authorized forge.",
 )
 config_app = typer.Typer(
     help="Offline review of explicitly supplied anonymized snapshots."
@@ -87,7 +87,7 @@ def entrypoint(
         ),
     ] = False,
 ) -> None:
-    """VersionSec by Gexiro. Bounded posture for one authorized forge."""
+    """VersionSec by SKOPION Intelligence. Bounded posture for one authorized forge."""
 
 
 async def _run(

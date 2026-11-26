@@ -48,7 +48,7 @@ def to_sarif(result):
                     "driver": {
                         "name": "VersionSec",
                         "version": result.tool["version"],
-                        "informationUri": "https://github.com/gexiro-global/versionsec",
+                        "informationUri": "https://github.com/SKOPION-Intelligence/versionsec",
                         "rules": rules,
                     }
                 },
