@@ -1,6 +1,6 @@
 # Authorized Use
 
-VersionSec by Gexiro is for defensive posture self-checks.
+VersionSec by SKOPION Intelligence is for defensive posture self-checks.
 
 You may use VersionSec only against instances you own or are explicitly authorized to assess.
 

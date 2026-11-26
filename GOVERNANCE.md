@@ -1,6 +1,6 @@
 # Governance
 
-VersionSec is maintained by Gexiro Global Enterprises Ltd.
+VersionSec is maintained by SKOPION Intelligence
 
 ## Decisions
 

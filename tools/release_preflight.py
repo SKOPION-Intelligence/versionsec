@@ -26,7 +26,7 @@ import sys
 import tomllib
 from pathlib import Path
 
-EXPECTED_REPOSITORY = "gexiro-global/versionsec"
+EXPECTED_REPOSITORY = "SKOPION-Intelligence/versionsec"
 EXPECTED_WORKFLOW = ".github/workflows/ci.yml"
 EXPECTED_EVENT = "push"
 ALLOWED_SOURCE_REFS = {
